@@ -1,0 +1,15 @@
+execve("./main", ["./main", "serg"], 0x7ffcbbbb5638 /* 60 vars */) = 0
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd061914f0) = -1 EINVAL (Invalid argument)
+brk(NULL)                               = 0x1cf6000
+brk(0x1cf71c0)                          = 0x1cf71c0
+arch_prctl(ARCH_SET_FS, 0x1cf6880)      = 0
+uname({sysname="Linux", nodename="rom-notebook", ...}) = 0
+readlink("/proc/self/exe", "/home/rom/Documents/projects/sto"..., 4096) = 53
+brk(0x1d181c0)                          = 0x1d181c0
+brk(0x1d19000)                          = 0x1d19000
+mprotect(0x4bd000, 12288, PROT_READ)    = 0
+write(1, "Hello, dear ", 12)            = 12
+write(1, "serg", 4)                     = 4
+write(1, "\n", 1)                       = 1
+exit_group(0)                           = ?
++++ exited with 0 +++
