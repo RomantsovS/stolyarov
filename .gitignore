@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+.vscode
+
+# Build results
+[Bb]uild/
+Testing/
